@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.build.proto.testschema.MainActivity">
 
-    <Button
-        android:id="@+id/hello"
+    <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:autoLink="all"
         android:text="Hello Button" />
 
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Hello Button" />
 </RelativeLayout>
